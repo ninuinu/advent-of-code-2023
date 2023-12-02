@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	file, _ := os.Open("input.txt")
+	file, _ := os.Open("../input.txt")
 	fscanner := bufio.NewScanner(file)
 	
 	var totalSum int = 0
